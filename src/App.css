@@ -11,7 +11,7 @@ body,
   padding: 0;
   font-family: Inter;
   background-color: #FAFAF8;
-  color: #000
+  color: #000;
 }
 
 .header {
@@ -35,7 +35,6 @@ body,
 }
 
 main {
-
   padding: 30px 30px 10px;
 }
 
@@ -48,6 +47,7 @@ main {
 
 .add-ingredient-form input {
   border-radius: 6px;
+  color: #000;
   background-color: white;
   border: 1px solid #D1D5DB;
   padding: 9px 13px;
@@ -71,4 +71,9 @@ main {
 .add-ingredient-form button::before {
   content: "+";
   margin-right: 5px;
+}
+
+.ingredient-list {
+  /* background-color: black; */
+  color: black;
 }
